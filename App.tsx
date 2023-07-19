@@ -12,6 +12,8 @@ import { Loading } from './src/components/Loading';
 import { Groups } from './src/screens/Groups';
 import { Hightlight } from './src/components/Highlight';
 import { Header } from 'react-native/Libraries/NewAppScreen';
+import { NewGroups } from './src/screens/NewGroup';
+import { Players } from './src/screens/Players';
 
 export default function App() {
 
@@ -28,7 +30,7 @@ export default function App() {
         translucent
         />
           {
-            fontsLoaded ?  <Groups/> : <Loading /> 
+            fontsLoaded ?  <Players/> : <Loading /> 
           }
       </Container>
       </ThemeProvider>

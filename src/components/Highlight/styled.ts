@@ -4,6 +4,7 @@ import theme from '../../theme/theme'
 export const Container = styled.View`
   width: 100%;
   margin: 32px 0;
+  gap: 3rem;
 `
 export const Title = styled.Text`
   text-align: center;
@@ -16,7 +17,7 @@ export const Title = styled.Text`
 export const Subtitle = styled.Text`
   text-align: center;
 
-  font-size: ${theme.FONT_SIZE.XL}px;
+  font-size: ${theme.FONT_SIZE.MD}px;
   font-family: ${theme.FONT_FAMILY.REGULAR};
   color: ${theme.COLORS.GRAY_300};
 `
